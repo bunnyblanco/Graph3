@@ -7,7 +7,7 @@ Copyright 2011 Allen B. Downey.
 Distributed under the GNU General Public License at gnu.org/licenses/gpl.html.
 """
 class Edge(tuple):
-    """An Edge is a list of two vertices."""
+    """An Edge is a tuple of two vertices."""
 
     def __new__(cls, *vs):
         """The Edge constructor takes two vertices."""

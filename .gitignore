@@ -1,6 +1,4 @@
-*~
-*.pyc
+vcomplex/
 __pycache__/
-*.aux
-*.dvi
-*.log
+*.pyc
+*~

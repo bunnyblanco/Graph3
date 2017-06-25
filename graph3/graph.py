@@ -45,19 +45,9 @@ class Graph(dict):
         es = []
         if(v in self):
             if(w in self[v]):
-                es.add(self[v][w])
+                es.append(self[v][w])
         if(w in self):
             if(v in self[w]):
-                es.add(self[w][v])
+                es.append(self[w][v])
         return es
-
-def main(script, *args):
-    v = Vertex('v')
-    print(v)
-    w = Vertex('w')
-    print(w)
-    e = Edge(v, w)
-    print(e)
-    g = Graph([v,w], [e])
-    print(g)
 

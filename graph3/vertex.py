@@ -21,10 +21,3 @@ class Vertex(object):
     """The str and repr forms of this object are the same."""
 
 
-    def get_label(self):
-        return self.label
-
-    def set_label(self, label):
-        self.label = label
-        return self.label
-
